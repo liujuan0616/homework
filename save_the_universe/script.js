@@ -24,10 +24,10 @@ class UsSpacesships{
   
   class Alienships{
     constructor(){
-      this.hull = Math.floor(Math.random() * 4) + 3;
-      this.firepower = Math.floor(Math.random() * 3) + 2;
-      this.accuracy = (Math.floor(Math.random() * 3) + 6) / 10;
-      
+        this.hull = Math.floor(Math.random() * 4) + 3;
+        this.firepower = Math.floor(Math.random() * 3) + 2;
+        this.accuracy = (Math.floor(Math.random() * 3) + 6) / 10;
+        
     }
     attack(usShip){
         if(this.accuracy >Math.floor(Math.random()*1.4*10)/10){
